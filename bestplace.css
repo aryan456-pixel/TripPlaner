@@ -1,0 +1,185 @@
+.Button{
+    width:100px;
+    margin-top:10px;
+    margin-left:10px;
+    font-size:15px;
+    padding:7px;
+    background-color:orange;
+    color:white;
+    border:1px solid white;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.places{
+    display:grid;
+    justify-content:center;
+    width:80%;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    margin:auto;
+}
+.places .placecard{
+    background-color: #fff;
+    box-shadow:0px 4px 4px 6px rgb(226,225,225);
+    height:398px;
+    border-radius: 5px;;
+    margin-inline:22px;
+    margin-top:22px
+}
+
+.placecard img{
+    width:100%;
+    height:250px;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+
+}
+
+.placecard h3{
+    margin-top:11px;
+    margin-left: 11px;
+}
+
+.placecard p{
+    margin-top:11px;
+    margin-left: 11px;
+}
+
+*{
+    margin:0%;
+    padding:0%;
+}
+
+body{
+    font-family: 'Roboto' , sans-serif;
+}
+.head{
+    text-align:center;
+    padding:85px;
+    margin-top: 5%;
+}
+.head span{
+    color:orange;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#back_button{
+    background-color:orange;
+    width:15%;
+    margin-left:42%;
+    margin-top:10%;
+    height: 35px;
+    border:1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    color:white;
+    font-size:17px;
+    margin-bottom: 5%;
+
+}
+
+#a_back{
+    text-decoration: none;
+    text-align: center;
+}
+.loginpage{
+    display: none;
+}
+.active1{
+    display: block;
+    width:300px;
+    background-color: #fff;
+    padding:11px;
+    box-shadow:0px 4px 4px 6px rgb(230, 239, 229) ;
+    position:fixed;
+    top:12%;
+    right:2%;
+}
+
+.active1 input{
+    width:90%;
+    padding:6px;
+    margin-top:13px;
+}
+
+.active1 button{
+    width:80px;
+    height:28px;
+    background-color:orange;
+    color:white;
+    font-size:16px;
+    border:none;
+    margin-top:15px;
+}
+
+
+#loginBtn{
+    cursor: pointer;
+}
+
+nav{
+    display:flex;
+    
+    background-color:orange;
+    color:white;
+    padding-top:22px;
+    padding-bottom: 22px;
+    position: fixed;
+    top:0%;
+    width:100%;
+
+}
+
+ul{
+    margin-left:630px;
+    display:flex;
+    align-items:center;
+}
+
+ul li{
+    
+    list-style:none;
+}
+
+.a{  
+    
+    text-decoration:none;
+    margin-inline: 24px;
+    color:white;
+    font-size:20px;
+
+}
+
+.icons{
+    display:flex;
+    align-items:center;
+    cursor:pointer;
+    margin-left: 20px;
+    
+}
+
+
+
+.logo{
+    margin-left: 15px;
+    color:black;
+    font-size:20px;
+}
+
+ul li a:hover{
+    color:black;
+    cursor:pointer;
+}
+
+#bar{
+    display:none;
+}
+.icons img{
+    height: 45px;
+
+}
